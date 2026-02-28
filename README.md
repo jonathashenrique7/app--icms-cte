@@ -25,24 +25,16 @@ Este é um sistema web completo e moderno para simulação de cálculo de ICMS e
 
     Servidor ASGI: Uvicorn
 
-📂 Estrutura do Projeto
-code Text
 
-├── backend/
-│   ├── main.py         # Pontos de entrada (Routes)
-│   ├── services.py     # Lógica de negócio e cálculos
-│   ├── schemas.py      # Modelagem e validação de dados
-│   └── constants.py    # Tabelas de alíquotas e constantes
-├── frontend/
-│   └── index.html      # Interface do usuário (SPA)
-└── README.md           # Documentação
 
 🔧 Instalação e Execução
+
 1. Clonar o repositório
 code Bash
 
 git clone https://github.com/seu-usuario/calculadora-icms-cte.git
 cd calculadora-icms-cte
+
 
 2. Configurar o Backend
 
@@ -61,7 +53,9 @@ source venv/bin/activate
 # Instalar dependências
 pip install fastapi uvicorn
 
+
 3. Rodar o Servidor
+   
 code Bash
 
 cd backend
@@ -85,3 +79,4 @@ Basta abrir o arquivo frontend/index.html em qualquer navegador moderno.
     Fórmula do Cálculo: Valor Total = Valor Frete / (1 - (Alíquota / 100))
 
 Desenvolvido para fins de simulação logística e automação fiscal.
+
