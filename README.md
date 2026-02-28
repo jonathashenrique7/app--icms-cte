@@ -1,4 +1,4 @@
-# app--icms-cte
+# app-icms-cte
 
 🚛 Calculadora de ICMS para CT-e (Logística Brasil)
 
